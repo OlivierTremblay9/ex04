@@ -36,15 +36,22 @@ main() {
   print('Num_02:');
 
   num sin45 = 0.707;
+  num cos45 = sin45; 
   var x = 0;
   var y = 0;
-  int line = 160;
+  num center_X = 400;
+  num center_Y = 300;
+  int hyp = 160;
   var width = 800;
   var height = 600;
   
-  var segment= sin45 * line; 
+  var segment_AB= sin45 * hyp;
+  var segment_AC= cos45 * hyp;  
   
-  var widtghpoint= x + segment;
+  var widtghpoint= x + center_X + segment_AB;
+  var heightpoint= y + center_Y + segment_AC;
   
-  print('X = ${widtghpoint} pixels');
+  print('        Result: X = ${heightpoint} & Y = ${widtghpoint} pixels');
+  
+  print('Num_03:');
 }
