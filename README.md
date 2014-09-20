@@ -4,4 +4,4 @@
 
 Created by olivier Tremblay
 
-This content 5 exercices et intend for 20%.
+This program includes five exercises in the course SIO-2109 and intend for 20%.
