@@ -77,7 +77,7 @@ main() {
   
   var value1 =0; 
      var value2 = 1000;
-     var value3 = 1.48;
+     var value3 = 1.048;
     
    
      for (var n=0 ; n< 5 ;n++){ 
