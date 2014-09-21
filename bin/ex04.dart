@@ -71,7 +71,7 @@ main() {
   
   
 
-  print('Result: ${difference}');
+  print('Result: ${difference.inDays} Days');
   
   print('Num_04:');
   
