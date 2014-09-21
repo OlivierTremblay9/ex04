@@ -1,0 +1,23 @@
+ex04
+
+supprimez doc/README.md
+
+attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+
+ex04_3
+
+  Result: 271793:05:04.870000 ?
+
+  exemple: 24 années 7 mois 8 jours
+  
+ex04_4
+
+  vous êtes dans l'école de commerce
+
+  http://www.thecalculatorsite.com/finance/calculators/compoundinterestcalculator.php
+  
+  1 $ 48.00 $ 48.00   $ 1,048.00
+  2 $ 50.30 $ 98.30   $ 1,098.30
+  3 $ 52.72 $ 151.02  $ 1,151.02
+  4 $ 55.25 $ 206.27  $ 1,206.27
+  5 $ 57.90 $ 264.17  $ 1,264.17
