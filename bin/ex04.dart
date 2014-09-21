@@ -1,41 +1,30 @@
 
- String prepare (result,cashdown,interest){ 
+String prepare (result,cashdown,interest){ 
    return '(${cashdown.toStringAsFixed(0)} x ${interest}) = ${result.toStringAsFixed(2)}'; 
  } 
  
-
- String table (Val1,Val2,Val3){ 
+String table (Val1,Val2,Val3){ 
    return '(${Val2} x ${Val3}) = ${Val1}'; 
  } 
 
 String fibonacciIteration(int f) {
-
-  int x = 0, y = 1, z = 1, n = 1;
-
-  String result = '0' ' 1' ;
+   int x = 0, y = 1, z = 1, n = 1;
+   String result = '0' ' 1' ;
 
   while (n < f) {
-
-    z = x + y;
-    
+    z = x + y;  
     result = '$result $z';
-
     x = y; 
     y = z;
     n = n + 1;
-
-  }
-
-  return result;
 }
-
-DateTime Date(DateTime i, DateTime j) { 
- Duration durationDiff = j.difference(i); 
- DateTime dateDiff = new DateTime(0).add(durationDiff); 
- return dateDiff; 
+    return result;
+}
+   DateTime Date(DateTime i, DateTime j) { 
+   Duration durationDiff = j.difference(i); 
+   DateTime dateDiff = new DateTime(0).add(durationDiff); 
+    return dateDiff; 
 } 
-
-
 
 main() {
 
