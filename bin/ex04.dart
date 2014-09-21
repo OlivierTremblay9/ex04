@@ -1,11 +1,21 @@
 
 String prepare (result,cashdown,interest){ 
+<<<<<<< HEAD
    return '(${cashdown.toStringAsFixed(0)} x ${interest}) = ${result.toStringAsFixed(2)}'; 
  } 
  
 String table (Val1,Val2,Val3){ 
    return '(${Val2} x ${Val3}) = ${Val1}'; 
  } 
+=======
+  return '(${cashdown.toStringAsFixed(0)} x ${interest}) = ${result.toStringAsFixed(2)}'; 
+} 
+ 
+
+String table (Val1,Val2,Val3){ 
+  return '(${Val2} x ${Val3}) = ${Val1}'; 
+} 
+>>>>>>> f1d74a15c0e74e7952fb65aa933200e672b05a56
 
 String fibonacciIteration(int f) {
    int x = 0, y = 1, z = 1, n = 1;
