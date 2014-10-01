@@ -1,8 +1,5 @@
 ex04
 
-vous n'êtes pas dans la liste officielle des étudiants pour ce cours?!
-
-
 18/20
 
 -1 attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
