@@ -1,5 +1,20 @@
 ex04
 
+vous n'êtes pas dans la liste officielle des étudiants pour ce cours?!
+
+
+18/20
+
+-1 attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+
+DateTime Date(DateTime i, DateTime j) { 
+-->
+DateTime date(DateTime i, DateTime j) { 
+
+-1 ou est fonction pour 4.2?
+
+---
+
 supprimez doc/README.md
 
 attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
